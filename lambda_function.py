@@ -59,7 +59,7 @@ def lambda_handler(event, context):
     except Exception as e:
         statusCode = 403
         message = f'error: {e}'
-    print('new Version! 1.1')
+    print('new Version! 1.2')
     return {
         'entity_name': entity_name,
         'statusCode': statusCode,
